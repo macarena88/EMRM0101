@@ -2,7 +2,7 @@
 const colorButton = document.getElementById("colorButton");
 
 // Arreglo de colores
-const colores = ["red", "green", "blue", "orange", "purple"]; // Agrega los colores que desees
+const colores = ["red", "green", "blue", "orange", "purple"]; // Puedes agregar más colores
 let indiceColor = 0; // Índice para rastrear el color actual
 
 // Función para cambiar el color del botón
@@ -13,3 +13,4 @@ colorButton.addEventListener("click", function() {
     // Incrementa el índice y reinicia si se excede el tamaño del arreglo
     indiceColor = (indiceColor + 1) % colores.length;
 });
+
