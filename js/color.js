@@ -1,6 +1,5 @@
-// Espera a que el documento esté completamente cargado
+// color.js
 document.addEventListener("DOMContentLoaded", function() {
-    // Selecciona la imagen y el botón por sus ID
     const catContainer = document.getElementById("catContainer");
     const colorButton = document.getElementById("colorButton");
 
