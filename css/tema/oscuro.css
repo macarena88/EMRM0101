@@ -1,0 +1,12 @@
+/* oscuro.css */
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
